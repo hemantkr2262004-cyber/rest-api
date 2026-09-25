@@ -12,9 +12,9 @@ public class JournalEntryController {
 
     private Map<Long, JournalEntry> journalEntries = new HashMap<>();
 
-//    @GetMapping
-//    public List<JournalEntry> getAll(){
-//     return new ArrayList<>(journalEntries.values());
-//     }
+    @GetMapping
+   public List<JournalEntry> getAll(){
+    return new ArrayList<>(journalEntries.values());
+     }
 
 }
