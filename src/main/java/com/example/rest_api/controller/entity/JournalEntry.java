@@ -16,7 +16,7 @@ public class JournalEntry {
         this.id = id;
 
     }
-
+//
     public String getTitle() {
         return title;
 
