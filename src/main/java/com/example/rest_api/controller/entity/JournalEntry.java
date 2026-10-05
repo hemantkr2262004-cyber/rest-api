@@ -9,7 +9,7 @@ public class JournalEntry {
 
 
     public long getId() {
-        return id;
+        return  id;
     }
 
     public void setId(long id) {
