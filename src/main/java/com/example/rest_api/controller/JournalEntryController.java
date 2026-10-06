@@ -23,7 +23,7 @@ public class JournalEntryController {
         journalEntries.put(myEntry.getId(),myEntry);
         return true;
     }
-@GetMapping("id/{myId}")
+    @GetMapping("id/{myId}")
     public  JournalEntry getJournalEntryById(@PathVariable Long myId){
      return  journalEntries.get(myId);
     }
